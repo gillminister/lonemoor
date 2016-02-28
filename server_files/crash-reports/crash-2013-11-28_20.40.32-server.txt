@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 28.11.13 20:40
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at md.a(SourceFile:99)
+	at md.a(SourceFile:59)
+	at mf.a(SourceFile:31)
+	at afn.a(SourceFile:886)
+	at mj.a(SourceFile:621)
+	at afn.a(SourceFile:2155)
+	at aoj.c(SourceFile:665)
+	at mi.c(SourceFile:94)
+	at net.minecraft.server.MinecraftServer.g(SourceFile:242)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:212)
+	at lj.e(SourceFile:186)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:328)
+	at ky.run(SourceFile:617)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_45, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2942050280 bytes (2805 MB) / 3087007744 bytes (2944 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 2 total; -Xmx8192M -Xms3072M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 15, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 20; []
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

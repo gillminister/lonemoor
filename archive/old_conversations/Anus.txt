@@ -1,0 +1,38 @@
+Anus!
+
+Æ fiksa på Backup'en (igjen). Det blir bare en mindre justering for din del.
+
+Backup-systemet vi har brukt til no fungere enda, men no har æ også lagt til et grafisk grensesnitt.
+For å få det til å funke, må du endre backup-"kallan" i startup-bat'en din:
+"java MinecraftBackup BeginGame" skal endres til "java -jar MCB.jar BeginGame"
+"java MinecraftBackup EndGame" skal endres til "java -jar MCB.jar EndGame"
+
+
+Backup-vinduet vil automatisk lukke sæ etter 3-4 sekunda når den e ferdig, så lenge 
+du ikke trykke på "Keep open"-knappen nederst til høyre. (æ har deaktivert "Kryss-ut"-knappen
+øverst til høyre, så du MÅ trykke på "Exit" for å lukke dersom du trykke på "Keep open")
+
+
+
+Min oppstart.bat ser no slik ut
+
+
+"
+[...]
+
+REM Starter server.
+:Start
+CLS
+ECHO Terminating Dropbox
+TASKKILL /F /IM Dropbox.exe
+call setStianOgJorn.bat
+nircmd setsysvolume 36000 Speakers
+minecraft
+java -jar MCB.jar BeginGame
+call startServer_StianOgJorn.bat
+java -jar MCB.jar EndGame
+cls
+GOTO End
+
+[...]
+"

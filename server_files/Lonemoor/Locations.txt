@@ -1,0 +1,5 @@
+Hovedhus		:X 291		Y 101		Z -779
+Hus Nr.1		:X -47		Y 66		Z -96
+Snøhus 1 (Gill)		:X 712		Y 80		Z -2186
+Snøhus 2 (Stan)		:X -2108	Y 80		Z -3095
+Pyramide		:X 242		Y 72		Z 5

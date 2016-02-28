@@ -1,0 +1,14 @@
+Analus!
+
+Har lagt inn en ny kommando i startServer_StianOgJorn.txt som skriv til ei 
+serverstatus_StianOgJorn.txt fil.
+Her kan man se om servern e oppe eller nede. Har oppdatert startfila mi kraftig med
+en del IF-setninge slik at det ikkje går an å starte servern hvis
+serverstatus_StianOgJorn.txt fila sei at servern e oppe. 
+
+La også til nån andre setninge som sei fra vest fila ikkje eksistere, eller hvis teksten 
+i den e ugyldig.Funke ganske bra. Har funne 2 bugs i den som æ ikkje klare å rette opp, 
+men det e kun bugs man får vest man bevisst framprovosere dem.
+
+Legg fila ut i Minecraft_Server mappa som eksempel hvis du har løst å gjøre nåkka
+lignanes.

@@ -1,0 +1,7 @@
+[client]
+Optifine HD
+Rei's Minimap (client)
+Updated Texturepack
+
+[server]
+LoginMessage (get through Rei's Minimap-thread on forum)
