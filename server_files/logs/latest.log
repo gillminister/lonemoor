@@ -1,132 +1,23 @@
-[00:02:30] [Server thread/INFO]: Starting minecraft server version 1.8
-[00:02:30] [Server thread/INFO]: Loading properties
-[00:02:30] [Server thread/INFO]: Default game type: SURVIVAL
-[00:02:30] [Server thread/INFO]: Generating keypair
-[00:02:30] [Server thread/INFO]: Starting Minecraft server on 192.168.0.109:25565
-[00:02:33] [Server thread/WARN]: Could not lookup user uuid for player
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:33] [Server thread/WARN]: Could not lookup user uuid for stanminister_old
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:33] [Server thread/WARN]: Could not lookup user uuid for player_old
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:33] [Server thread/WARN]: Could not lookup user uuid for giller
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:34] [Server thread/WARN]: Could not lookup user uuid for playez
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:34] [Server thread/WARN]: Could not lookup user uuid for gillminister_old
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:34] [Server thread/WARN]: Could not lookup user uuid for giller_old
-com.mojang.authlib.yggdrasil.ProfileNotFoundException: Server did not find the requested profile
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:64) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:56) [minecraft_server.1.8.jar:?]
-	at sf.a(SourceFile:347) [minecraft_server.1.8.jar:?]
-	at po.aP(SourceFile:523) [minecraft_server.1.8.jar:?]
-	at po.i(SourceFile:164) [minecraft_server.1.8.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
-	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_25]
-[00:02:34] [Server thread/INFO]: Preparing level "StianOgJorn"
-[00:02:35] [Server thread/INFO]: Preparing start region for level 0
-[00:02:36] [Server thread/INFO]: Preparing spawn area: 92%
-[00:02:36] [Server thread/INFO]: Done (1,182s)! For help, type "help" or "?"
-[00:03:09] [User Authenticator #1/INFO]: UUID of player stanminister is f86e8516-9542-4cae-9747-96af4a6c0941
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.98 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.31 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.3 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.54 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.4 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.58 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.50 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.1 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.craftItem.65 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.4 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.3 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.98 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.278 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.355 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.craftItem.280 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.49 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.276 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.44 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.mineBlock.102 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.craftItem.5 is
-[00:03:09] [Server thread/WARN]: Invalid statistic in .\StianOgJorn\stats\f86e8516-9542-4cae-9747-96af4a6c0941.json: Don't know what stat.useItem.65 is
-[00:03:09] [Server thread/INFO]: stanminister[/192.168.0.109:51046] logged in with entity id 4 at (-8387.139186568877, 70.0, -6077.256119119238)
-[00:03:09] [Server thread/INFO]: stanminister joined the game
-[00:03:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3373ms behind, skipping 67 tick(s)
-[00:03:43] [Server thread/INFO]: stanminister lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:03:43] [Server thread/INFO]: stanminister left the game
-[00:12:50] [User Authenticator #2/INFO]: UUID of player stanminister is f86e8516-9542-4cae-9747-96af4a6c0941
-[00:12:50] [Server thread/INFO]: stanminister[/192.168.0.109:51448] logged in with entity id 472 at (-8391.25021850925, 70.0, -6078.056719428086)
-[00:12:50] [Server thread/INFO]: stanminister joined the game
-[00:13:01] [Server thread/INFO]: stanminister lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:13:01] [Server thread/INFO]: stanminister left the game
-[00:23:18] [User Authenticator #3/INFO]: UUID of player stanminister is f86e8516-9542-4cae-9747-96af4a6c0941
-[00:23:18] [Server thread/INFO]: stanminister[/192.168.0.109:51641] logged in with entity id 870 at (-8391.472423910292, 70.0, -6078.883663481283)
-[00:23:18] [Server thread/INFO]: stanminister joined the game
-[00:23:33] [Server thread/INFO]: stanminister lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:23:33] [Server thread/INFO]: stanminister left the game
-[00:32:47] [User Authenticator #4/INFO]: UUID of player stanminister is f86e8516-9542-4cae-9747-96af4a6c0941
-[00:32:47] [Server thread/INFO]: stanminister[/192.168.0.109:51854] logged in with entity id 1265 at (-8391.00226469904, 70.0, -6076.951863194445)
-[00:32:47] [Server thread/INFO]: stanminister joined the game
-[00:35:57] [Server thread/INFO]: stanminister lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:35:57] [Server thread/INFO]: stanminister left the game
-[00:40:24] [User Authenticator #5/INFO]: UUID of player stanminister is f86e8516-9542-4cae-9747-96af4a6c0941
-[00:40:24] [Server thread/INFO]: stanminister[/192.168.0.109:52015] logged in with entity id 3655 at (-8391.00226469904, 70.0, -6076.951863194445)
-[00:40:24] [Server thread/INFO]: stanminister joined the game
-[00:40:33] [Server thread/INFO]: stanminister lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:40:33] [Server thread/INFO]: stanminister left the game
-[00:50:43] [Server thread/INFO]: Stopping the server
-[00:50:43] [Server thread/INFO]: Stopping server
-[00:50:43] [Server thread/INFO]: Saving players
-[00:50:43] [Server thread/INFO]: Saving worlds
-[00:50:43] [Server thread/INFO]: Saving chunks for level 'StianOgJorn'/Overworld
-[00:50:43] [Server thread/INFO]: Saving chunks for level 'StianOgJorn'/Nether
-[00:50:43] [Server thread/INFO]: Saving chunks for level 'StianOgJorn'/The End
-[00:50:44] [Server Shutdown Thread/INFO]: Stopping server
-[00:50:44] [Server Shutdown Thread/INFO]: Saving players
-[00:50:44] [Server Shutdown Thread/INFO]: Saving worlds
-[00:50:44] [Server Shutdown Thread/INFO]: Saving chunks for level 'StianOgJorn'/Overworld
-[00:50:44] [Server Shutdown Thread/INFO]: Saving chunks for level 'StianOgJorn'/Nether
-[00:50:44] [Server Shutdown Thread/INFO]: Saving chunks for level 'StianOgJorn'/The End
+[01:32:35] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[01:32:35] [Server thread/INFO]: Loading properties
+[01:32:35] [Server thread/INFO]: Default game type: SURVIVAL
+[01:32:35] [Server thread/INFO]: Generating keypair
+[01:32:37] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[01:32:37] [Server thread/INFO]: Using epoll channel type
+[01:32:37] [Server thread/INFO]: Preparing level "Lonemoor"
+[01:32:38] [Server thread/INFO]: Preparing start region for level 0
+[01:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[01:32:40] [Server thread/INFO]: Preparing spawn area: 9%
+[01:32:41] [Server thread/INFO]: Preparing spawn area: 26%
+[01:32:42] [Server thread/INFO]: Preparing spawn area: 48%
+[01:32:43] [Server thread/INFO]: Preparing spawn area: 60%
+[01:32:44] [Server thread/INFO]: Preparing spawn area: 91%
+[01:32:45] [Server thread/INFO]: Done (7.457s)! For help, type "help" or "?"
+[01:37:10] [Server thread/INFO]: Stopping the server
+[01:37:10] [Server thread/INFO]: Stopping server
+[01:37:10] [Server thread/INFO]: Saving players
+[01:37:10] [Server thread/INFO]: Saving worlds
+[01:37:10] [Server thread/INFO]: Saving chunks for level 'Lonemoor'/Overworld
+[01:37:10] [Server thread/INFO]: Saving chunks for level 'Lonemoor'/Nether
+[01:37:10] [Server thread/INFO]: Saving chunks for level 'Lonemoor'/The End
+[01:37:10] [Server Shutdown Thread/INFO]: Stopping server
